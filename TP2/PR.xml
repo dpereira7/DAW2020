@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "file:/C:/Users/Diogo/Documents/Universidade/4%C2%BAAno/DAW/TP2/PR.dtd">
+<PR>
+    <key_name>TPC 2</key_name>
+    <title>Resolução de TPC's</title>
+    <subtitle>Resolução do TPC 2</subtitle>
+    <begin_date>Outubro 2020</begin_date>
+    <end_date>Outubro 2020</end_date>
+    <supervisor href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    <work_team>
+        <elemento>
+            <name>Diogo Paulo da Costa Pereira</name>
+            <number>84092</number>
+            <mail>a84092@uminho.pt</mail>
+            <site href="http://www.github.com/dpereira7/DAW2020">www.github.com/dpereira7/DAW2020</site>
+        </elemento>
+    </work_team>
+    <abstract>
+        <paragraph>Resolução deo TPC número 2.</paragraph>
+        <paragraph>O TPC contempla um ficheiro dtd e um ficheiro xml.</paragraph>
+    </abstract>
+    <deliverables>
+        <link href="PR.dtd">Report(DTD version)</link>
+        <link href="PR.xml">Report(XML version)</link>
+    </deliverables>
+</PR>
