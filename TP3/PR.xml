@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "file:/C:/Users/Diogo/Documents/Universidade/4%C2%BAAno/DAW/TP2/PR.dtd">
+<PR>
+    <key_name>XSL</key_name>
+    <title>Resolução de TPC's</title>
+    <subtitle>Resolução do TPC 3</subtitle>
+    <begin_date>Outubro 2020</begin_date>
+    <end_date>Outubro 2020</end_date>
+    <supervisor href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    <work_team>
+        <elemento>
+            <name>Diogo Paulo da Costa Pereira</name>
+            <number>84092</number>
+            <mail>a84092@uminho.pt</mail>
+            <site href="http://www.github.com/dpereira7/DAW2020">www.github.com/dpereira7/DAW2020</site>
+        </elemento>
+    </work_team>
+    <abstract>
+        <paragraph>Resolução do TPC número 3.</paragraph>
+        <paragraph>Geração de Website com transformações XSL.</paragraph>
+        <paragraph>O TPC contempla uma pasta com os ficheiros do website desenvolvido,um ficheiro dtd, um ficheiro xml e um ficheiro xsl.</paragraph>
+    </abstract>
+    <deliverables>
+        <link href="site">Folder(Site pages)</link>
+        <link href="PR.xml">Report(XML version)</link>
+        <link href="ArqSite.dtd">Report(DTD version)</link>
+        <link href="arq.xml">DataSet</link>
+        <link href="arqSite.xsl">Report(XSL version)</link>
+    </deliverables>
+</PR>
