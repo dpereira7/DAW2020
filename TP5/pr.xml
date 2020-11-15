@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Diogo/Documents/Universidade/4%C2%BAAno/DAW/Aula4/TP4/pr.dtd">
+<pr>
+    <meta>
+        <key>Server</key>
+        <title>Resolução do TPC 5</title>
+        <bdate>Novembro 2020</bdate>
+        <edate>Novembro 2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de um Website dinâmico.</p>
+        <p>Criação de um servidor para suportar o Website desenvolvido. </p>
+    </abstract>
+    <deliverables>
+        <link url="db.json">DataBase</link>
+        <link url="escola.js">Server(JS version)</link>
+    </deliverables>
+</pr>
