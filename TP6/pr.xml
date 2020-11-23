@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Node.js, JSON-Server e SPA</key>
+        <title>Resolução do TPC 6</title>
+        <bdate>Novembro 2020</bdate>
+        <edate>Novembro 2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de uma <i>Single Page Application</i> (SPA).</p>
+        <p>Criação de um servidor desenvolvido em Node.js capaz de responde a pedidos GET e POST usando uma API configurada através do JSON-Server. </p>
+    </abstract>
+    <deliverables>
+        <link url="db.json">DataBase</link>
+        <link url="server.js">Servidor</link>
+        <link url="funcoes.js">Funções auxiliares</link>
+        <link url="server-static.js">Recurso estático</link>
+    </deliverables>
+</pr>
