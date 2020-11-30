@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Node.js, Express.js e MongoDB</key>
+        <title>Resolução do TPC 7</title>
+        <bdate>Novembro 2020</bdate>
+        <edate>Novembro 2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de uma aplicação Web, que lista todos os alunos da base de dados, visualizar cada aluno individualmente, registar,editar e apagar alunos.</p>
+    </abstract>
+    <deliverables>
+        <link url="db.json">DataBase</link>
+    </deliverables>
+</pr>
