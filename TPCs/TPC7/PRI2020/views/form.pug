@@ -1,0 +1,21 @@
+extends layout
+
+
+block content
+  .w3-container.w3-teal
+    h2 Registo de um Aluno
+  form.w3-container(action='/alunos' method='POST')
+    label.w3-text-teal
+      b Nome
+    input.w3-input.w3-border.w3-light-grey(type='text' name='Nome')
+    label.w3-text-teal
+      b Número de aluno
+    input.w3-input.w3-border.w3-light-grey(type='text' name='Número')
+    label.w3-text-teal
+      b Link para o repositório no Git
+    input.w3-input.w3-border.w3-light-grey(type='text' name='Git')
+    input.w3-btn.w3-blue-grey(type='submit' value='Registar')
+    input.w3-btn.w3-blue-grey(type='reset' value='Limpar valores')
+  footer.w3-container.w3-teal
+    address Gerado por Diogo Pereira::PRI2020
+    a(href="/alunos") Voltar  
