@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Node.js, Upload e Download Files</key>
+        <title>Resolução do TPC 8</title>
+        <bdate>Dezembro 2020</bdate>
+        <edate>Dezembro 2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Geração de uma aplicação Web, que lista e dá upload a múltiplos ficheiros.</p>
+        <p>Ainda permite visualizar imagens que já tenham levado upload e fazer download de todos os ficheiros que levaram upload.</p>
+    </abstract>
+    <deliverables>
+        <link url="gficheiros/server.js">Servidor</link>
+        <link url="gficheiros/html-templates.js">Templates para HTML</link>
+        <link url="gficheiros/dbFiles.json">Base de dados</link>
+        <link url="gficheiros/public/imagens.js">Funções auxiliares</link>
+    </deliverables>
+</pr>
