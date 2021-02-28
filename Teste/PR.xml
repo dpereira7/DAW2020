@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>PRI 2020</key>
+        <title>Teste de Processamento e Representação de Informação</title>
+        <bdate>18-01-2021</bdate>
+        <edate>18-01-2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A84092">
+            <name>Diogo Paulo da Costa Pereira</name>
+            <email>a84092@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            No alínea 1 do exercício 1, apenas alterei o ref por _id e substitui as "/" por "_".
+        </p>
+        <p>
+            Na alínea 2 do exercício 1, inicialmente adicionei o dataset na pasta tools do mongodb, depoisusando o terminal nessa mesma diretoria, corri o 
+            comando mongoimport <b>--db casamentos --collection casamentos --drop --file casamentos.json --jsonArray</b> .
+        </p>
+        <p> 
+            No segundo exercício, foi proposta a implementação de uma aplicação em nodejs que permita navegar sobre a API de dados, CLAV.
+            Numa primeira fase foi testado a API de dados com o <i>Postman</i> de forma a perceber melhor a face a qual foi desenvolvido para tal foi respondido algumas questões:
+        </p>
+            <p>
+                <b>1. Quantos processos (nível 3) e quais são (obtem uma lista em JSON; podes concatenar sublistas invocando várias queries), pertencentes à descendência da classe 750?</b>
+                <u>R:Existem 842 processos de nível 3 e 17 processos de nível 3 descendentes de 750.</u>
+            </p>
+            <p>
+                <b>2. Quantos subprocessos existem no catálogo inteiro? (classes de nível 4)</b>
+                <u>R:Existem 116 subprocessos.</u>
+            </p>
+            <p>
+                <b>3. Quantos processos (classes de nível 3) se encontram na descendência de 750.30?</b>
+                <u>R:Existem 5 subprocessos.</u>
+            </p>
+            <p>
+                <b>4. Quantos processos (classes de nível 3) estão relacionados com 750.30.001?</b>
+                <u>R:Estão relacionados 6 processos com o processo 750.30.001 .</u>
+            </p>
+    </abstract>
+    <deliverables>
+            <link url="casamentos.json">Dataset disponibilizado  - exercício 1</link>
+            <link url="ex1/controllers/casamentos.js">Funções para retirar informação da base de dados - exercício 1</link>
+            <link url="ex1/models/casamentos.js">Modelo de um objecto do dataset - exercício 1</link>
+            <link url="ex1/routes/api.js">Rotas implementadas - exercício 1</link>
+            <link url="ex2/app.js">app.js - exercício 1</link>
+            <link url="ex2/routes/index.js">Rotas implementadas - exercício 2</link>
+            <link url="ex2/views/index.js">View inicial - exercício 2</link>
+            <link url="ex2/views/classe.js">View de uma classe - exercício 2</link>
+            <link url="ex2/views/erro.js">View de erros - exercício 2</link>
+            <link url="ex2/app.js">app.js - exercício 2</link>     
+            <link url="pr.xml">pr.xml</link>
+    </deliverables>
+</pr>

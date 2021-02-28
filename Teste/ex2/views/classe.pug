@@ -1,0 +1,42 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3.w3-center CLAV 
+            h5.w3-center= classe.codigo + ' - ' + classe.titulo
+        .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th Nível
+                        th Código
+                        th Título
+                        th Descrição
+                        th Status
+                    tr
+                        td= classe.nivel
+                        td
+                            a(href="/classes/c"+classe.codigo)= classe.codigo
+                        td= classe.titulo
+                        td= classe.descricao
+                        td= classe.status
+        h3.w3-center.w3-teal Lista de Descendentes    
+        if classe.filhos.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th Título
+                        th Código
+                    each e in classe.filhos
+                        tr
+                            td= e.titulo
+                            td
+                                a(href="/classes/c"+e.codigo)= e.codigo    
+        else
+            div(class="w3-container")
+                p Classe indisponível/não existente de momento.
+        footer(class="w3-container w3-teal")
+            adress.w3-right Diogo Pereira-18/01/21
+            a(href="javascript:history.back()") Voltar
+            adreess /
+            a(href="/") Home
