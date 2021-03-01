@@ -1,7 +1,7 @@
 # Processamento e Representação de Informação 20/21
 ## Processamento de Linguagens e Conhecimento
 
-## TPCs
+## * [TPCs](https://github.com/dpereira7/PRI2020/tree/main/TPCs) 
 
 * [TPC 1](https://github.com/dpereira7/PRI2020/tree/main/TPCs/TPC1)
 * [TPC 2](https://github.com/dpereira7/PRI2020/tree/main/TPCs/TPC2)
