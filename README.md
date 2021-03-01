@@ -11,3 +11,7 @@
 * [TPC 6](https://github.com/dpereira7/PRI2020/tree/main/TPCs/TPC6)
 * [TPC 7](https://github.com/dpereira7/PRI2020/tree/main/TPCs/TPC7)
 * [TPC 8](https://github.com/dpereira7/PRI2020/tree/main/TPCs/TPC8)
+
+## Teste
+
+* [Teste Prático](https://github.com/dpereira7/PRI2020/tree/main/Teste)
